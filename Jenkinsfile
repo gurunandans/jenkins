@@ -3,6 +3,7 @@ pipeline {
     stages {
         stage('build') {
             steps {
+                // Test commit
                 sh 'node --version'
             }
         }
